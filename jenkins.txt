@@ -1,0 +1,7 @@
+Discard old builds-must check it
+
+m1027284
+
+in build->
+add build->
+execute shell->npm istall

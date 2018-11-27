@@ -1,0 +1,23 @@
+Please convert the below sql Query to Linq query and lambda expression:
+
+Problem statement-> Get sum of salaries for the employees as per gender and department from tbl_Emp whose sum of salaries is greater and equal to 20000 
+SQL Query->select SUM(ESalary) SumOfSal, EGender, _
+Did from tbl_Emp Group By Did,EGender Having Sum(ESalary) >= 20000 
+
+SELECT p.*
+FROM Purchase p
+    LEFT OUTER JOIN 
+        Customer c INNER JOIN Address a ON c.AddressID = a.ID
+    ON p.CustomerID = c.ID	
+WHERE
+   (a.State = 'WA' || p.CustomerID IS NULL)
+    AND p.ID in
+    (
+        SELECT PurchaseID FROM PurchaseItem
+        GROUP BY PurchaseID HAVING SUM (SaleAmount) > 1000
+
+ans- from p in db.Purchases
+where p.Customer.Address.State == "WA" || p.Customer == null
+where p.PurchaseItems.Sum (pi => pi.SaleAmount) > 1000
+select p
+

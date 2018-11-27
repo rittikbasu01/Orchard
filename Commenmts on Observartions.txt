@@ -1,0 +1,6 @@
+1)need to explore on difference between having and where.
+2)need to be sure about the sql operation of hierarchy.
+3)need to explore more on delegate operation.
+4)have clear basic concept of OOPS.
+5)have basic idea of server type , can explore more on that.
+6)have basic concept of Linq, can explore more on that.

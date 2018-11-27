@@ -1,0 +1,76 @@
+$ git --version
+$ git config --global user.name "USERNAME"
+$ git config --global user.name
+$ git config --global user.email "email_address@example.com"
+
+$ git config --global user.email
+
+Use the below command to check the entered information:
+$ git config --global --list
+
+You can pull the latest changes made to the master branch by using the below command:
+$ git checkout master
+
+You can fetch the latest changes to the working directory with the below command:
+$ git pull origin NAME-OF-BRANCH -u
+
+Here, NAME-OF-BRANCH could be 'master' or any other existing branch.
+
+Create a new branch with the below command:
+$ git checkout -b branch-name
+
+You can switch from one branch to other branch by using the command as:
+$ git checkout branch-name
+
+Check the changes made to your files with the below command:
+$ git status
+
+You will see the changes in red color and add the files to staging as:
+$ git add file-name
+
+to commit ur change->
+git commit -m "add filename"
+Creating SSH key->
+C:\>ssh-keygen
+to create new file->
+$ echo "Welcome Rittik" >> GitDemo1.txt
+
+retrieving public ssh key->
+cat ~/.ssh/id_rsa.pub | clip
+Or you can add all the files to staging as:
+$ git add *
+
+Now send your changes to master branch with the below command:
+$ git push origin branch-name
+
+Delete the all changes, except unstaged things by using the below command:
+$ git checkout .
+
+You can delete the all changes along with untracked files by using the command as:
+$ git clean -f
+
+To merge the different branch with the master branch, use the below command:
+$git checkout branch-name
+$ git merge master 
+
+You can also merge the master branch with the created branch, by using the below command:
+$git checkout master
+$ git merge branch-name 
+
+
+--To add angular project
+git init
+git remote add origin git@glcgitlab.southindia.cloudapp.azure.com:M1042829/AngularProject.git
+git status
+git add -A
+git commit
+git push
+
+
+To push any files from remote to local branch->
+git clone -b Dev --single-branch git@glcgitlab.southindia.cloudapp.azure.com:playground/dotnet-feb-2018/rittik/Indrani/Sanctuary-Indrani.git
+
+
+npm install
+npm install -g @angular/cli
+ng build --env=prod  

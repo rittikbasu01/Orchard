@@ -1,0 +1,9 @@
+ public ActionResult Index(BookDetails bookDetails)
+        {
+            List<BookDetails> bDetails = new List<BookDetails>();
+            bDetails.Add(bookDetails);
+
+            IEnumerable<BookDetails> details = bDetails.Cast<BookDetails>().OrderBy(detail => detail).Select(detail => detail);
+
+            return View(details);
+        }

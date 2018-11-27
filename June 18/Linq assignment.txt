@@ -1,0 +1,6 @@
+Please convert the below sql Query to Linq query and lambda expression:
+
+Problem statement-> Get sum of salaries for the employees as per gender and department from tbl_Emp whose sum of salaries is greater and equal to 20000 
+SQL Query->select SUM(ESalary) SumOfSal, EGender, _
+Did from tbl_Emp Group By Did,EGender Having Sum(ESalary) >= 20000 
+

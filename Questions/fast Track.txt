@@ -1,0 +1,52 @@
+1.How can we pass the data From Controller To View In MVC?
+2.What is Data Annotation Validator Attributes in MVC?
+3.How can we restrict MVC actions to be invoked only by GET or POST?
+4.attribute routing
+5.partial view
+6.How can we use two ( multiple) models with a single view? 
+7.You are developing an ASP.NET MVC web application in Visual Studio 2012.  The application requires several thousand content files. 
+
+
+All content is hosted on the same IIS instance as the application.  You detect performance issues when the application starts.  You need to resolve the performance issues. What should you do?  
+
+A. Implement HTTP caching in the ASP.NET MVC controllers.
+
+ B. Combine the content files by using ASP.NET MVC bundling.
+
+ C. Install a second IIS instance. 
+
+D. Move the content to a Windows Azure CDN.  
+
+Answer: B  
+8.
+
+
+
+You have been instructed to write code that creates a method for the ItemController class.  The method must satisfy the prerequisites to handle exceptions related to logging. Which of the following actions should you take?  
+
+A. You should consider creating an OnResultExecuted method. 
+
+B. You should consider creating an OnAuthorization method. 
+
+C. You should consider creating an OnException method. 
+
+D. You should consider creating an OnActionExecuting method.  
+
+Answer: C
+9.sealed class
+10.SELECT Id, YEAR(BillingDate) AS BillingYear 
+FROM Invoices
+WHERE BillingYear >= 2010
+
+https://www.toptal.com/sql/interview-questions
+
+Write a SQL query to find the 10th highest employee salary from an Employee table. Explain your answer.
+
+nvl
+Can we insert a row for identity column implicitly?
+
+can stored prcodure call itself
+can we use insert or update in functions
+can we return null in stored proc
+try catch in stored proc
+ref,out
